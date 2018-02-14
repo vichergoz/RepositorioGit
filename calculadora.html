@@ -6,13 +6,20 @@ function cube(){
 	var num = document.getElementById("n1");
 	num.value = num.value * num.value * num.value;
 }
+function module2(){
+	var num = document.getElementById("n1");
+	num.value = num.value % 2;
+}
 </script>
 </head>
 <body>
 Number:
 <input type="text" id="n1"><p>
 
+
 <button onclick="cube()">x<sup>3</sup></button>
+<button onclick="module2()">x%2</button>
+
 </body>
 </html>
 	
