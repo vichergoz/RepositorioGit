@@ -2,9 +2,9 @@
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 
-function inverse(){
+function module2(){
 	var num = document.getElementById("n1");
-	num.value = 1 / num.value;
+	num.value = num.value % 2;
 }
 </script>
 </head>
@@ -12,7 +12,7 @@ function inverse(){
 Number:
 <input type="text" id="n1"><p>
 
-<button onclick="inverse()">1/x</button>
+<button onclick="module2()">x%2</button>
 </body>
 </html>
 	
