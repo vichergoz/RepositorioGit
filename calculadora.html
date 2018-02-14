@@ -2,9 +2,9 @@
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 
-function inverse(){
+function cube(){
 	var num = document.getElementById("n1");
-	num.value = 1 / num.value;
+	num.value = num.value * num.value * num.value;
 }
 </script>
 </head>
@@ -12,7 +12,7 @@ function inverse(){
 Number:
 <input type="text" id="n1"><p>
 
-<button onclick="inverse()">1/x</button>
+<button onclick="cube()">x<sup>3</sup></button>
 </body>
 </html>
 	
